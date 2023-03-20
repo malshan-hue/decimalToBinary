@@ -10,7 +10,6 @@ public class Main {
 
             ArrayList<Integer> binary = new ArrayList<Integer>();
 
-
             while(number != 0){
 
                 int remainder = number % 2;
@@ -21,8 +20,8 @@ public class Main {
             }
 
             System.out.print("Binary number is = ");
-            for(int i : binary){
-                System.out.print(i + " ");
+            for(int i=(binary.size()-1); i>=0; i--){
+                System.out.print(binary.get(i) + " ");
             }
 
         }
